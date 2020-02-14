@@ -1,0 +1,27 @@
+{
+  "types": [
+    "face_load",
+    "face_get_canvas",
+    "face_get_emotion",
+    "face_get_age",
+    "face_get_gender",
+    "face_get_description",
+    "face_get_euclideanDistance",
+    "face_get_camera"
+  ],
+  "category": "catPlus",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
+  ],
+  "dependencies": [
+    "camera.js",
+    "webcam.js",
+    "face-api.js",
+    "face.js",
+    "face-blockly.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml"
+}
