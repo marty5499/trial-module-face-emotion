@@ -16,7 +16,6 @@
   ],
   "dependencies": [
     "camera.js",
-    "webcam.js",
     "face-api.js",
     "face.js",
     "face-blockly.js"
